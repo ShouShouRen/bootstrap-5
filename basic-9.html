@@ -36,9 +36,27 @@
         bottom-0
         bottom-50
         bottom-100
+
+        translate-middle
+        translate-middle-x
+        translate-middle-y
      -->
     <div class="box mx-auto mt-5 bg-secondary position-relative">
-        <div class="p-5 bg-dark position-absolute bottom-50 end-100"></div>
+        <div class="p-5 bg-dark position-absolute start-0 top-0"></div>
+        <div class="p-5 bg-dark position-absolute start-50 top-0 translate-middle-x"></div>
+        <div class="p-5 bg-dark position-absolute end-0 top-0"></div>
+        <div class="p-5 bg-dark position-absolute start-0 top-50 translate-middle-y"></div>
+        <div class="p-5 bg-dark position-absolute start-50 top-50 translate-middle"></div>
+        <div class="p-5 bg-dark position-absolute end-0 top-50 translate-middle-y"></div>
+        <div class="p-5 bg-dark position-absolute start-0 bottom-0"></div>
+        <div class="p-5 bg-dark position-absolute start-50 bottom-0 translate-middle-x"></div>
+        <div class="p-5 bg-dark position-absolute end-0 bottom-0"></div>
+    </div>
+    <div class="box mx-auto mt-5 bg-secondary position-relative">
+        <div class="p-4 bg-danger position-absolute start-100 translate-middle"></div>
+        <div class="p-4 bg-danger position-absolute start-100 top-100 translate-middle"></div>
+        <div class="p-4 bg-danger position-absolute start-0 top-100 translate-middle"></div>
+        <div class="p-4 bg-danger position-absolute start-0 top-0 translate-middle"></div>
     </div>
 </body>
 </html>
