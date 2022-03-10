@@ -1,3 +1,4 @@
+/* framework setting */
 .carousel-indicators [data-bs-target]{
     width: 10px;
     height: 10px;
@@ -11,7 +12,7 @@
 }
 /* collection */
 #collection{
-    padding: 100px 0;
+    padding-top: 60px;
 }
 .collection-item{
     height: 400px;
@@ -26,4 +27,38 @@
 }
 .collection-item a:hover{
     opacity: .6;
+}
+/* event */
+#event{
+    padding-top: 100px;
+}
+.event-item a{
+    transition: .3s;
+}
+.event-item a:hover{
+    opacity: .6;
+}
+/* info */
+#info{
+    padding-top: 100px;
+}
+.info-item a{
+    transition: .3s;
+}
+.info-item a:hover{
+    opacity: .6;
+}
+/* footer */
+footer{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    line-height: 2.5;
+}
+footer a:hover{
+    color: #bdbdbd;
 }
